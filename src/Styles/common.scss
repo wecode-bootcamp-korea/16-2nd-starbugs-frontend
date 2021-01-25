@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+// 폰트
+$nanumGothic: "Nanum Gothic", sans-serif;
+
+// 색상
+$theme-color: #006633;
+$basic-color: #f4f4f2;
+$navfoo-color: #2c2a29;
+$navfont-color: #669900;
+
+@mixin flex($justify: space-between, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}

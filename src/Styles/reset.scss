@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1;
+}
+input {
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+button {
+  background: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+ul,
+li {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
