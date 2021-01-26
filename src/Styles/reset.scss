@@ -26,3 +26,12 @@ li {
 a {
   text-decoration: none;
 }
+.hid {
+  position: absolute;
+  left: -9999px;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+}
