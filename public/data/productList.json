@@ -1,0 +1,168 @@
+{
+  "results": [
+    {
+      "subcategory_id": 1,
+      "name": "콜드 브루 커피",
+      "description": "디카페인 에스프레소 샷 추가 가능 (일부 음료 제외)",
+      "products": [
+        {
+          "id": 1,
+          "image": "https://image.istarbucks.co.kr/upload/store/skuimg/2019/09/[9200000002487]_20190919181354811.jpg",
+          "isnew": true,
+          "isseason": false,
+          "title": "커피명 1",
+          "kcal": 10,
+          "sodium": 15,
+          "saturation": 20,
+          "sugar": 23,
+          "protein": 34,
+          "caffeine": 21
+        },
+        {
+          "id": 2,
+          "image": "https://image.istarbucks.co.kr/upload/store/skuimg/2017/03/[9200000000479]_20170328134443491.jpg",
+          "isnew": true,
+          "isseason": true,
+          "title": "커피명 2",
+          "kcal": 20,
+          "sodium": 35,
+          "saturation": 270,
+          "sugar": 243,
+          "protein": 134,
+          "caffeine": 21
+        },
+        {
+          "id": 3,
+          "image": "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2017%2F05%2Fstarbucks-coffee-ice-01.jpg?q=75&w=800&cbr=1&fit=max",
+          "isnew": false,
+          "isseason": true,
+          "title": "커피명 3",
+          "kcal": 70,
+          "sodium": 15,
+          "saturation": 230,
+          "sugar": 2,
+          "protein": 4,
+          "caffeine": 21
+        },
+        {
+          "id": 4,
+          "image": "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2017%2F05%2Fstarbucks-coffee-ice-01.jpg?q=75&w=800&cbr=1&fit=max",
+          "isnew": false,
+          "isseason": false,
+          "title": "커피명 4",
+          "kcal": 90,
+          "sodium": 10,
+          "saturation": 30,
+          "sugar": 235,
+          "protein": 30,
+          "caffeine": 29
+        },
+        {
+          "id": 5,
+          "image": "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2017%2F05%2Fstarbucks-coffee-ice-01.jpg?q=75&w=800&cbr=1&fit=max",
+          "isnew": true,
+          "isseason": false,
+          "title": "커피명 5",
+          "kcal": 20,
+          "sodium": 35,
+          "saturation": 270,
+          "sugar": 243,
+          "protein": 134,
+          "caffeine": 21
+        },
+        {
+          "id": 6,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMhvc4gM9vzjGot2pnWjSsLnzYZvXWV0WByQ&usqp=CAU",
+          "isnew": false,
+          "isseason": false,
+          "title": "커피명 6",
+          "kcal": 20,
+          "sodium": 35,
+          "saturation": 270,
+          "sugar": 243,
+          "protein": 134,
+          "caffeine": 21
+        },
+        {
+          "id": 7,
+          "image": "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2017%2F05%2Fstarbucks-coffee-ice-01.jpg?q=75&w=800&cbr=1&fit=max",
+          "isnew": false,
+          "isseason": true,
+          "title": "커피명 7",
+          "kcal": 70,
+          "sodium": 15,
+          "saturation": 230,
+          "sugar": 2,
+          "protein": 4,
+          "caffeine": 21
+        }
+      ]
+    },
+    {
+      "subcategory_id": 2,
+      "name": "브루드 커피",
+      "description": "",
+      "products": [
+        {
+          "id": 1,
+          "image": "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2017%2F05%2Fstarbucks-coffee-ice-01.jpg?q=75&w=800&cbr=1&fit=max",
+          "isnew": true,
+          "isseason": false,
+          "title": "커피명 8",
+          "kcal": 70,
+          "sodium": 15,
+          "saturation": 230,
+          "sugar": 2,
+          "protein": 4,
+          "caffeine": 21
+        },
+        {
+          "id": 2,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMhvc4gM9vzjGot2pnWjSsLnzYZvXWV0WByQ&usqp=CAU",
+          "isnew": false,
+          "isseason": false,
+          "title": "커피명 9",
+          "kcal": 20,
+          "sodium": 35,
+          "saturation": 270,
+          "sugar": 243,
+          "protein": 134,
+          "caffeine": 21
+        },
+        {
+          "id": 3,
+          "image": "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2017%2F05%2Fstarbucks-coffee-ice-01.jpg?q=75&w=800&cbr=1&fit=max",
+          "isnew": false,
+          "isseason": true,
+          "title": "커피명 10",
+          "kcal": 70,
+          "sodium": 15,
+          "saturation": 230,
+          "sugar": 2,
+          "protein": 4,
+          "caffeine": 21
+        }
+      ]
+    },
+    {
+      "subcategory_id": 3,
+      "name": "에스프레소",
+      "description": "",
+      "products": [
+        {
+          "id": 1,
+          "image": "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2017%2F05%2Fstarbucks-coffee-ice-01.jpg?q=75&w=800&cbr=1&fit=max",
+          "isnew": true,
+          "isseason": false,
+          "title": "커피명 11",
+          "kcal": 70,
+          "sodium": 15,
+          "saturation": 230,
+          "sugar": 2,
+          "protein": 4,
+          "caffeine": 21
+        }
+      ]
+    }
+  ]
+}
