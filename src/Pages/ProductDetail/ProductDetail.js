@@ -13,7 +13,7 @@ export default function ProductDetail(props) {
     // fetch("http://localhost:3000/data/productDetailData.json")
     // fetch(`${DETAIL_API}/${math.params.id}`)
     // fetch(DETAIL_API)
-    fetch("http://192.168.202.128:3000/data/productDetailData.json")
+    fetch("http://localhost:3000/data/productDetailData.json")
       .then((res) => res.json())
       .then((res) => {
         setDrinkDetail(res.item);
