@@ -12,12 +12,8 @@ export default class Navfirst extends Component {
               <ul className="gnb_sub_ul">
                 {HEAD1.map((menu) => {
                   const { id, link, content } = menu;
-                  return menu.id === 0 ? (
-                    <li id={id}>
-                      <Link to={link}>{content}</Link>
-                    </li>
-                  ) : (
-                    <li id={id} style={{ lineHeight: 0.3 }}>
+                  return (
+                    <li id={id} className={menu.id === 0 ? "" : "change"}>
                       <Link to={link}>{content}</Link>
                     </li>
                   );
@@ -25,7 +21,7 @@ export default class Navfirst extends Component {
               </ul>
               <ul className="gnb_sub_ul">
                 <li>
-                  <Link to="/">나와. 어울리는 커피</Link>
+                  <Link to="/">나와 어울리는 커피</Link>
                 </li>
               </ul>
               <ul className="gnb_sub_ul">

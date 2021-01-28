@@ -47,42 +47,35 @@ export const HEAD1 = [
 export const HEAD2 = [
   {
     id: 0,
-    content: "음료",
+    title: "음료",
+    content: "콜드 브루",
+    content2: "에스프레소",
     link: "/login",
   },
   {
     id: 1,
+    title: "푸드",
     content: "콜드 브루",
     link: "/mypage",
   },
   {
     id: 2,
-    content: "브루드 커피",
+    title: "상품",
+    content: "콜드 브루",
     link: "/service",
   },
   {
     id: 3,
-    content: "에스프레소",
+    title: "카드",
+    content: "콜드 브루",
     link: "/store",
   },
   {
     id: 4,
-    content: "에스프레소",
-    link: "/store",
-  },
-  {
-    id: 5,
-    content: "블랜디드",
-    link: "/store",
-  },
-  {
-    id: 6,
-    content: "스타벅스 피지오",
-    link: "/store",
-  },
-  {
-    id: 7,
-    content: "티(티바나)",
+    title: "메뉴이야기",
+    content: "콜드 브루",
     link: "/store",
   },
 ];
+
+export const HEAD3 = [{}];
