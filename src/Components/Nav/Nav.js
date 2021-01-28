@@ -25,19 +25,20 @@ export default class Nav extends Component {
             <div className="nav_inner">
               <h1 className="logo">
                 <Link to="/">
-                  <img src="./Images/logo2.jpg" alt="로고 이미지"></img>
+                  <img src="./Images/logo2.jpg" alt="로고 이미지" />
                 </Link>
               </h1>
               <div className="util_nav">
                 <ul>
                   {HEAD.map((menu) => {
                     const { id, content, link } = menu;
-                    return menu.id === 0 ? (
-                      <li id={id} className="util_sign_in">
-                        <Link to={link}>{content}</Link>
-                      </li>
-                    ) : (
-                      <li id={id} className="util_sign_in2">
+                    return (
+                      <li
+                        id={id}
+                        className={
+                          menu.id === 0 ? "util_sign_in" : "util_sign_in2"
+                        }
+                      >
                         <Link to={link}>{content}</Link>
                       </li>
                     );
@@ -68,7 +69,6 @@ export default class Nav extends Component {
               </li>
               <li onMouseEnter={() => this.clickHandler(3)} className="sub_li">
                 <Link to="">STORE</Link>
-                {this.state.currentId === 3}
               </li>
               <li className="sub_li">
                 <Link to="">RESPONSIBILITY</Link>
