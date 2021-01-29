@@ -127,9 +127,8 @@ export default function ProductList() {
 }
 
 const ProductListWrap = styled.div`
-  margin-top: 140px;
-  margin-bottom: 90px;
-  padding: 0px 125px;
+  margin: 140px auto 90px;
+  width: 1100px;
   font-family: $nanumGothic;
 `;
 

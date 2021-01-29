@@ -120,7 +120,7 @@ const HEAD2 = [
       { menu_title: "e-Gift 카드", menu_link: "/" },
     ],
 
-    link: "/store",
+    link: "/cart",
   },
   {
     id: 4,
@@ -131,7 +131,7 @@ const HEAD2 = [
       { menu_title: "STARBUGS 티바나", menu_link: "/" },
     ],
 
-    link: "/store",
+    link: "/cart",
   },
 ];
 
