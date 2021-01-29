@@ -49,7 +49,9 @@ const IsSeason = styled(IsNew)`
 `;
 
 const TitleDiv = styled.div`
-  display: table;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 54px;
   font-size: 14px;
 `;
