@@ -11,9 +11,9 @@ export default function ProductDetail(props) {
   const [cupSizeInfo, setCupSizeInfo] = useState(0);
   useEffect(() => {
     // fetch("http://localhost:3000/data/productDetailData.json")
-    // fetch(`${DETAIL_API}/${math.params.id}`)
+    // fetch("http://192.168.202.128:3000/data/productDetailData.json")
     // fetch(DETAIL_API)
-    fetch("http://localhost:3000/data/productDetailData.json")
+    fetch(`${DETAIL_API}/${props.match.params.id}`)
       .then((res) => res.json())
       .then((res) => {
         setDrinkDetail(res.item);
@@ -88,6 +88,7 @@ export default function ProductDetail(props) {
                         setDrinkDetail={setDrinkDetail}
                         name={item.korea_name}
                         cupSize={item.size[cupSizeInfo].size_name}
+                        cupSizeId={item.size[cupSizeInfo].size_id}
                         price={item.size[cupSizeInfo].price}
                       />
                     </ProductViewInfo>
@@ -182,6 +183,10 @@ const ProductViewInfo = styled.div`
       text-align-last: right;
       font-weight: normal;
       font-size: 20px;
+
+      &:hover {
+        cursor: pointer;
+      }
 
       &:focus {
         outline: none;

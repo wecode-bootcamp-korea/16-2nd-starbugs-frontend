@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { Link, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { KAKAO_LOGIN_API_URL } from "../../config";
 import "./Login.scss";
 
 const { Kakao } = window;
 
 class Login extends Component {
-  KakaoLoginClickHandler = () => {
+  KakaoLoginClickHandler = (props) => {
     Kakao.init(process.env.REACT_APP_KAKAO_INIT_KEY);
     Kakao.Auth.login({
       success: function (authObj) {
@@ -21,7 +21,7 @@ class Login extends Component {
             if (res.access_token) {
               localStorage.setItem("Kakao_token", res.access_token);
               alert("Starbugs Coffee Korea에 오신것을 환영합니다!");
-              this.props.history.push("/");
+              props.history.push("/");
             }
           });
       },
@@ -44,15 +44,10 @@ class Login extends Component {
               autocomplete="on"
             >
               <feildset>
-                <legend className="hid">
-                  회원가입 이용약관 동의, 수집하는 개인정보의 항목, 개인정보의
-                  수집 및 이용목적, 개인정보의 보유 및 이용기간 및 파기절차,
-                  파기 방법에 관한 폼
-                </legend>
                 <strong>로그인</strong>
                 <section>
                   <p className="findForm">
-                    <span>Welcome! </span>Starbugs커피 코리아에 오신 것을
+                    <span>Welcome! </span>Starbugs 커피 코리아에 오신 것을
                     환영합니다.
                   </p>
                 </section>
@@ -74,7 +69,7 @@ class Login extends Component {
                   </p>
                   <p
                     className="btnKakaoLogin"
-                    onClick={this.KakaoLoginClickHandler}
+                    onClick={() => this.KakaoLoginClickHandler(this.props)}
                   >
                     <label>카카오 로그인</label>
                   </p>
@@ -95,4 +90,4 @@ class Login extends Component {
   }
 }
 
-export default withRouter(Login);
+export default Login;

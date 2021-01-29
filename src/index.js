@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 import Routes from "./Routes";
-import theme from "./Styles/theme";
 import "./Styles/common.scss";
 
 const GlobalStyle = createGlobalStyle`
@@ -38,6 +37,13 @@ a {
   text-decoration: none;
 }
 `;
+
+const theme = {
+  themeColor: "#006633",
+  basicColor: "#f4f4f2",
+  navfooColor: "#2c2a29",
+  navfontColor: "#669900",
+};
 
 ReactDOM.render(
   <>

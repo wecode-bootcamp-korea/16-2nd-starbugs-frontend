@@ -1,0 +1,36 @@
+{
+  "item": [
+    {
+      "id": 1,
+      "name": "나이트로 바닐라 크림",
+      "img": "https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "cup_size": "Tall",
+      "amount": 5,
+      "price": 6500
+    },
+    {
+      "id": 2,
+      "name": "나이트로 콜드 브루",
+      "img": "https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "cup_size": "Grande",
+      "amount": 1,
+      "price": 5000
+    },
+    {
+      "id": 3,
+      "name": "돌체 콜드 브루",
+      "img": "https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "cup_size": "Tall",
+      "amount": 1,
+      "price": 7000
+    },
+    {
+      "id": 4,
+      "name": "김치 콜드 브루",
+      "img": "https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "cup_size": "Tall",
+      "amount": 3,
+      "price": 10000
+    }
+  ]
+}
