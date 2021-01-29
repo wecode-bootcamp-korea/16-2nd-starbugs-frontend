@@ -11,7 +11,6 @@ export default function Nutrition({
   saturation,
   caffeine,
 }) {
-  console.log("Nutrition 진입");
   return (
     <NutritionTr>
       <TableTh>{title}</TableTh>

@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { withRouter, useHistory } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import BuyBtns from "./Buybtns";
 import { CART_API } from "../../../config";
 
-function CtrlAmount({ drinkDetail, cupSize, price, name }) {
+function CtrlAmount({ drinkDetail, cupSize, price, name, history, cupSizeId }) {
   const [amount, setamount] = useState(1);
-  const { history } = useHistory();
 
   useEffect(() => {
     setamount(1);
@@ -16,14 +15,20 @@ function CtrlAmount({ drinkDetail, cupSize, price, name }) {
   const addToCart = () => {
     const accessToken = localStorage.getItem("Kakao_token");
     fetch(CART_API, {
+      method: "POST",
       headers: { Authorization: accessToken },
+      body: JSON.stringify({
+        drink: drinkDetail[0].id,
+        amount: drinkDetail[0].amount,
+        size: cupSizeId,
+      }),
     })
       .then((res) => res.json())
       .then((res) => {
-        if (res.item) {
+        if (res.results === "SUCCESS") {
           alert(`${name} ${cupSize} ${amount}개 장바구니에 담기 성공!`);
-          let move2Cart = window.confirm("장바구니로 이동하시겠습니까?");
-          move2Cart && history.push("/cart");
+          let moveToCart = window.confirm("장바구니로 이동하시겠습니까?");
+          moveToCart && history.push("/cart");
         } else {
           alert("로그인이 필요한 서비스 입니다.");
         }

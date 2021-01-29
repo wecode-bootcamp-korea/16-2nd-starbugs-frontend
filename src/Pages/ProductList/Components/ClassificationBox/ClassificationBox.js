@@ -17,8 +17,6 @@ export default function ClassificationBox({
     setIsToggleOpen(!isToggleOpen);
   };
 
-  console.log("isToggleOpen", isToggleOpen);
-
   return (
     <div className="classificationBox">
       <ClassificationBoxWrapper>

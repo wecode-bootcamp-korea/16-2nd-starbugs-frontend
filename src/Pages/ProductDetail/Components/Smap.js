@@ -19,7 +19,7 @@ export default function Smap({ name, categoryName }) {
       alt: "메뉴",
     },
     {
-      to: "/",
+      to: "/productlist",
       text: "음료",
       arrow: icon_arrow,
       alt: "음료 리스트",

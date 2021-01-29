@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Nutrition from "../Nutrition/Nutrition";
 
 export default function NutritionMap({ products }) {
-  console.log("NutritionMap 진입");
   return (
     <NutritionMapWrapTable>
       <TableTr>
