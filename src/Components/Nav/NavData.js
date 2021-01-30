@@ -6,17 +6,17 @@ const HEAD = [
   },
   {
     id: 1,
-    content: "My Starbucks",
-    link: "/mypage",
+    content: "My Starbugs",
+    link: "/",
   },
   {
     id: 2,
     content: "Customer Service",
-    link: "/service",
+    link: "/",
   },
   {
     id: 3,
-    content: "Find a Store",
+    content: "Cart",
     link: "/store",
   },
 ];
@@ -40,7 +40,7 @@ const HEAD1 = [
   },
   {
     id: 2,
-    title: "스타벅스 리저브",
+    title: "STARBUGS 리저브",
     content: [{ menu_title: "RESERVE MAGAZINE", menu_link: "/" }],
     link: "",
   },
@@ -107,7 +107,7 @@ const HEAD2 = [
       { menu_title: "보온병", menu_link: "/" },
       { menu_title: "악세사리", menu_link: "/" },
       { menu_title: "커피 용품", menu_link: "/" },
-      { menu_title: "스타벅스 플래너", menu_link: "/" },
+      { menu_title: "STARBUGS 플래너", menu_link: "/" },
     ],
 
     link: "/service",
@@ -128,7 +128,7 @@ const HEAD2 = [
     content: [
       { menu_title: "나이트로 콜드브루", menu_link: "/" },
       { menu_title: "콜드 브루", menu_link: "/" },
-      { menu_title: "스타벅스 티바나", menu_link: "/" },
+      { menu_title: "STARBUGS 티바나", menu_link: "/" },
     ],
 
     link: "/store",

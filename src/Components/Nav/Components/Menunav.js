@@ -8,7 +8,7 @@ export default class Menunav extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentId: 1,
+      currentId: null,
     };
   }
 
@@ -16,7 +16,7 @@ export default class Menunav extends Component {
     this.setState({ currentId: id });
   };
 
-  leaveHandler = (id) => {
+  leaveHandler = () => {
     this.setState({ currentId: 0 });
   };
 
@@ -32,7 +32,6 @@ export default class Menunav extends Component {
                 <li
                   key={idx}
                   onMouseEnter={() => this.enterHandler(idx + 1)}
-                  // onMouseLeave={this.leaveHandler}
                   className="sub_li"
                 >
                   {menu}
@@ -57,6 +56,6 @@ const NAV_ARR = [
   "MENU",
   "STORE",
   "RESPONSIBILITY",
-  "STARBUCKS REWARDS",
+  "STARBUGS REWARDS",
   "WHAT'S NEW",
 ];
