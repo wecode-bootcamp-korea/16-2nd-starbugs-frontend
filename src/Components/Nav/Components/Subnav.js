@@ -5,6 +5,23 @@ import "./Subnav.scss";
 
 //Sign in ~ Find a Stoer Navbar
 class Subnav extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isChecked: false,
+    };
+  }
+
+  loginChecked = () => {
+    this.setState({
+      isChecked: localStorage.getItem("Kakao_token") ? true : false,
+    });
+  };
+
+  componentDidMount() {
+    this.loginChecked();
+  }
+
   render() {
     return (
       <div>
@@ -13,15 +30,19 @@ class Subnav extends Component {
             <div className="nav_inner">
               <h1 className="logo">
                 <Link to="/">
-                  <img src="./Images/logo2.jpg" alt="로고 이미지" />
+                  <i class="fas fa-coffee fa-3x"></i>
+                  <div>STARBUGS</div>
                 </Link>
               </h1>
               <div className="util_nav">
                 <ul>
-                  {HEAD.map((menu) => {
+                  {HEAD.map((menu, idx) => {
                     const { id, content, link } = menu;
+                    if (idx === 3 && !this.state.isChecked) return null;
+                    if (idx === 0 && this.state.isChecked) return null;
                     return (
                       <li
+                        key={idx}
                         id={id}
                         className={menu.id === 0 ? "util_sign_in" : "util_all"}
                       >
