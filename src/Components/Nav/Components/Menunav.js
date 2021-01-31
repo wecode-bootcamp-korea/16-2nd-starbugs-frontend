@@ -19,12 +19,11 @@ export default class Menunav extends Component {
   };
 
   leaveHandler = (id) => {
-    this.setState({ currentId: id });
+    this.setState({ currentId: 0 });
   };
 
   render() {
     const { currentId } = this.state;
-    console.log("보여져라", this.enterHandler);
 
     return (
       <div className="sub_nav">
@@ -35,6 +34,7 @@ export default class Menunav extends Component {
                 <li
                   key={idx}
                   onMouseEnter={() => this.enterHandler(idx + 1)}
+                  onMouseLeave={this.leaveHandler}
                   className="sub_li"
                 >
                   {menu}
