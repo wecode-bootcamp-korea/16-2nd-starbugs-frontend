@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import { Link } from "react-router-dom";
 import Coffeemenu from "./Coffeemenu";
 import Foodmenu from "./Foodmenu";
 import "./Menunav.scss";

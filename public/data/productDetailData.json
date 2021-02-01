@@ -1,0 +1,53 @@
+{
+  "item": [
+    {
+      "id": 121,
+      "sub_category_name": "콜드 브루",
+      "korea_name": "나이트로 바널라 크림",
+      "english_name": "Nitro Vanilla Cream",
+      "main_description": "부드러운 목넘김의 나이트로 커피와 바닐라 크림의 매력을 한번에 느껴보세요!",
+      "sub_description": "부드러운 목넘김의 나이로 커피와 바닐라의 매력을 느껴보세요!",
+      "img_url": "https://jinukix-bucket.s3.ap-northeast-2.amazonaws.com/billy-kwok-vfiA7rRtjWo-unsplash.jpg",
+      "feel": 40,
+      "taste": 60,
+      "size": [
+        {
+          "size_id": 1,
+          "size_name": "Tall(톨)",
+          "price": "4500.0000",
+          "nutritions": {
+            "kcal": 32,
+            "sodium": 70,
+            "saturation": 56,
+            "sugar": 67,
+            "protein": 47,
+            "caffeine": 80
+          }
+        },
+        {
+          "size_id": 2,
+          "size_name": "Grande(그란데)",
+          "price": "6750.0000",
+          "nutritions": {
+            "kcal": 102,
+            "sodium": 140,
+            "saturation": 112,
+            "sugar": 134,
+            "protein": 94,
+            "caffeine": 160
+          }
+        }
+      ],
+      "allergies": [
+        {
+          "allergy_id": 13,
+          "allergy_name": "밀"
+        },
+        {
+          "allergy_id": 15,
+          "allergy_name": "복숭아"
+        }
+      ]
+    }
+  ]
+}
