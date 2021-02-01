@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 import Coffeemenu from "./Coffeemenu";
 import Foodmenu from "./Foodmenu";
@@ -34,7 +33,7 @@ export default class Menunav extends Component {
                 <li
                   key={idx}
                   onMouseEnter={() => this.enterHandler(idx + 1)}
-                  onMouseLeave={this.leaveHandler}
+                  // onMouseLeave={this.leaveHandler}
                   className="sub_li"
                 >
                   {menu}
