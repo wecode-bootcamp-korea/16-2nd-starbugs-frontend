@@ -23,9 +23,7 @@ class Subnav extends Component {
                     return (
                       <li
                         id={id}
-                        className={
-                          menu.id === 0 ? "util_sign_in" : "util_sign_in2"
-                        }
+                        className={menu.id === 0 ? "util_sign_in" : "util_all"}
                       >
                         <Link to={link}>{content}</Link>
                       </li>
