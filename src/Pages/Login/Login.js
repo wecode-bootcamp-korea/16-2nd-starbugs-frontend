@@ -10,7 +10,7 @@ export default class Login extends Component {
     Kakao.init(process.env.REACT_APP_KAKAO_INIT_KEY);
     Kakao.Auth.login({
       success: function (authObj) {
-        fetch(`${KAKAO_LOGIN_API_URL}`, {
+        fetch(KAKAO_LOGIN_API_URL, {
           method: "POST",
           body: JSON.stringify({
             access_token: authObj.access_token,
@@ -21,6 +21,7 @@ export default class Login extends Component {
             if (res.access_token) {
               localStorage.setItem("Kakao_token", res.access_token);
               alert("Stabugs Coffee Korea에 오신것을 환영합니다!");
+              this.props.history.push("/");
             }
           });
       },
