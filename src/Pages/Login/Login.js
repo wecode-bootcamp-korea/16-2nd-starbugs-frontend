@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import { KAKAO_LOGIN_API_URL } from "../../config";
 import "./Login.scss";
 
 const { Kakao } = window;
 
-export default class Login extends Component {
+class Login extends Component {
   KakaoLoginClickHandler = () => {
     Kakao.init(process.env.REACT_APP_KAKAO_INIT_KEY);
     Kakao.Auth.login({
@@ -20,7 +20,8 @@ export default class Login extends Component {
           .then((res) => {
             if (res.access_token) {
               localStorage.setItem("Kakao_token", res.access_token);
-              alert("Stabugs Coffee Korea에 오신것을 환영합니다!");
+              alert("Starbugs Coffee Korea에 오신것을 환영합니다!");
+              this.props.history.push("/");
             }
           });
       },
@@ -51,7 +52,7 @@ export default class Login extends Component {
                 <strong>로그인</strong>
                 <section>
                   <p className="findForm">
-                    <span>Welcome! </span>스타벅스커피 코리아에 오신 것을
+                    <span>Welcome! </span>Starbugs커피 코리아에 오신 것을
                     환영합니다.
                   </p>
                 </section>
@@ -80,7 +81,7 @@ export default class Login extends Component {
                   <p className="warnText">
                     * 타 사이트와 비밀번호를 동일하게 사용할 경우 도용의 위험이
                     있으므로, 정기적인 비밀번호 변경을 해주시길 바랍니다.
-                    <br />* 스타벅스 커피 코리아의 공식 홈페이지는 Internet
+                    <br />* Starbugs 커피 코리아의 공식 홈페이지는 Internet
                     Explorer 9.0 이상, Chrome, Firefox, Safari 브라우저에 최적화
                     되어있습니다.
                   </p>
@@ -93,3 +94,5 @@ export default class Login extends Component {
     );
   }
 }
+
+export default withRouter(Login);
