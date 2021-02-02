@@ -11,7 +11,7 @@ export default class Foodmenu extends Component {
             {HEAD2.map((menus) => {
               return (
                 <ul className="gnb_sub_ul" key={menus.id}>
-                  {menus.title}
+                  <Link to={menus.link}>{menus.title}</Link>
                   {menus.content.map((menu, idx) => {
                     return (
                       <li
