@@ -4,10 +4,10 @@ export const FOOTER = [
     title: "COMPANY",
     content: [
       { content_list: "한눈에 보기" },
-      { content_list: "스타벅스 사명" },
-      { content_list: "스타벅스 소개" },
+      { content_list: "STARBUGS 사명" },
+      { content_list: "STARBUGS 소개" },
       { content_list: "국내 뉴스룸" },
-      { content_list: "세계의 스타벅스" },
+      { content_list: "세계의 STARBUGS" },
       { content_list: "글로벌 뉴스룸" },
     ],
   },
