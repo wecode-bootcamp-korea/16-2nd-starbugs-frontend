@@ -33,6 +33,7 @@ const Listinner = styled.li`
   flex-direction: column;
   width: 250px;
   color: white;
+  cursor: pointer;
   line-height: 1.5;
   & a:hover {
     color: #00b050;

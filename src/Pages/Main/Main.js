@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { IMAGELIST } from "./Maindata";
 import { Link } from "react-router-dom";
 import MainScroll from "./Component/MainScroll";
-import { MAIN_URL } from "../../config";
+// import { MAIN_URL } from "../../config";
 import { FaArrowCircleUp } from "react-icons/fa";
 
 const Main = () => {
@@ -13,21 +13,24 @@ const Main = () => {
   const [logInStatus, setLoginStatus] = useState(false);
 
   useEffect(() => {
-    // setImageList(IMAGELIST);
+    setImageList(IMAGELIST);
     window.scrollTo({
       behavior: "smooth",
       top: 0,
     });
   }, []);
 
-  useEffect(() => {
-    fetch(`${MAIN_URL}`, {
-      method: "GET",
-    })
-      .then((res) => res.json())
-      .then((res) => setImageList(res.my_urls.slice));
-    checkIsLoggedIn();
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", BarHandler);
+  // });
+
+  // useEffect(() => {
+  //   fetch(`${MAIN_URL}`, {
+  //     method: "GET",
+  //   })
+  //     .then((res) => res.json())
+  //     .then((res) => setImageList(res.my_urls.slice(0, 3)));
+  // }, []);
 
   const handleSlider = (idx) => {
     let sliderClass = "nextSlide";
@@ -69,6 +72,18 @@ const Main = () => {
 
   window.addEventListener("scroll", checkScrollTop);
 
+  // let BarHandler = () => {
+  //   const totalScroll = document.documentElement.scrollTop;
+  //   const windowHeight =
+  //     document.documentElement.scrollHeight -
+  //     document.documentElement.clientHeight;
+  //   const scroll = `${totalScroll / windowHeight}`;
+  //   const progressBar = document.getElementById("progressBar");
+
+  //   progressBar.style.transform = `scale(${scroll}, 1)`;
+  //   progressBar.style.opacity = `${scroll}`;
+  // };
+
   const checkIsLoggedIn = () => {
     setLoginStatus({
       isLoggedIn: localStorage.getItem("Kakao_token") ? true : false,
@@ -77,18 +92,21 @@ const Main = () => {
 
   return (
     <div>
+      <BarContainer>
+        <div id="progressBar"></div>
+      </BarContainer>
       <TopWrap>
         <MainWrap>
           {logInStatus ? (
             <></>
           ) : (
-            imageList.map((image, idx) => {
+            IMAGELIST.map((image, idx) => {
               const slideClass = handleSlider(idx);
               return (
                 <img
                   key={idx}
                   className={`slider_img ${slideClass}`}
-                  src={image}
+                  src={image.img}
                   alt="배너 사진"
                 />
               );
@@ -187,6 +205,23 @@ const Main = () => {
 };
 
 export default Main;
+
+const BarContainer = styled.div`
+  position: fixed;
+  z-index: 14;
+  background: rgba(255, 255, 255, 0, 05);
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  #progressBar {
+    height: 5px;
+    background: linear-gradient(to left, rgb(36, 56, 50), green);
+    transform-origin: top left;
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+`;
 
 const TopWrap = styled.section`
   position: relative;

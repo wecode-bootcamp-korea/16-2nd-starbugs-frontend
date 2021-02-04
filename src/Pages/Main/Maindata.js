@@ -1,17 +1,22 @@
 export const IMAGELIST = [
   {
     id: 0,
-    img: "",
+    img: "./Images/star.jpg",
     link: "/",
   },
   {
     id: 1,
-    img: "",
+    img: "./Images/star2.jpg",
     link: "/",
   },
   {
     id: 2,
-    img: "",
+    img: "./Images/star3.jpg",
+    link: "/",
+  },
+  {
+    id: 3,
+    img: "./Images/star4.jpg",
     link: "/",
   },
 ];
