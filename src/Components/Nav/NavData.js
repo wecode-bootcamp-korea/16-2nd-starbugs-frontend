@@ -17,7 +17,7 @@ const HEAD = [
   {
     id: 3,
     content: "Cart",
-    link: "/store",
+    link: "/cart",
   },
 ];
 

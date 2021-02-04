@@ -27,6 +27,7 @@ const Listinner = styled.li`
   display: flex;
   width: 250px;
   color: white;
+  cursor: pointer;
   line-height: 1.5;
   & a:hover {
     color: #00b050;
