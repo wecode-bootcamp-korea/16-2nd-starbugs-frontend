@@ -49,14 +49,14 @@ const IsSeason = styled(IsNew)`
 `;
 
 const TitleDiv = styled.div`
-  display: table;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 54px;
   font-size: 14px;
 `;
 
 const TitleP = styled.p`
-  display: table-cell;
-  text-align: center;
   vertical-align: middle;
   color: #444;
 `;

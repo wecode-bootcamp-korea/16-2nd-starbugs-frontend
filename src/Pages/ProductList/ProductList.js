@@ -100,7 +100,6 @@ export default function ProductList() {
   console.log(checkedNames);
   return (
     <ProductListWrap>
-      {/* <Nav></Nav> */}
       <Header>
         <MenuName>음료</MenuName>
         <CurrentLocation>
@@ -127,17 +126,16 @@ export default function ProductList() {
 }
 
 const ProductListWrap = styled.div`
-  margin-top: 140px;
-  margin-bottom: 90px;
-  padding: 0px 125px;
+  margin: 140px auto 90px;
+  width: 1100px;
   font-family: $nanumGothic;
 `;
 
-const Nav = styled.nav`
-  border: 1px solid black;
-  height: 120px;
-  width: 100%;
-`;
+// const Nav = styled.nav`
+//   border: 1px solid black;
+//   height: 120px;
+//   width: 100%;
+// `;
 
 const Header = styled.header`
   position: relative;
