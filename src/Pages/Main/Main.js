@@ -20,9 +20,11 @@ const Main = () => {
     });
   }, []);
 
-  // useEffect(() => {
-  //   window.addEventListener("scroll", BarHandler);
-  // });
+  useEffect(() => {
+    window.addEventListener("scroll", barHandler);
+
+    return () => window.removeEventListener("scroll", barHandler);
+  });
 
   // useEffect(() => {
   //   fetch(`${MAIN_URL}`, {
@@ -72,17 +74,17 @@ const Main = () => {
 
   window.addEventListener("scroll", checkScrollTop);
 
-  // let BarHandler = () => {
-  //   const totalScroll = document.documentElement.scrollTop;
-  //   const windowHeight =
-  //     document.documentElement.scrollHeight -
-  //     document.documentElement.clientHeight;
-  //   const scroll = `${totalScroll / windowHeight}`;
-  //   const progressBar = document.getElementById("progressBar");
+  let barHandler = () => {
+    const totalScroll = document.documentElement.scrollTop;
+    const windowHeight =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
+    const scroll = `${totalScroll / windowHeight}`;
+    const progressBar = document.getElementById("progressBar");
 
-  //   progressBar.style.transform = `scale(${scroll}, 1)`;
-  //   progressBar.style.opacity = `${scroll}`;
-  // };
+    progressBar.style.transform = `scale(${scroll}, 1)`;
+    progressBar.style.opacity = `${scroll}`;
+  };
 
   const checkIsLoggedIn = () => {
     setLoginStatus({
