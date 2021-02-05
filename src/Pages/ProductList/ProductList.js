@@ -100,7 +100,7 @@ export default function ProductList() {
   console.log(checkedNames);
   return (
     <ProductListWrap>
-      {/* <Nav>네브바 자리</Nav> */}
+      {/* <Nav></Nav> */}
       <Header>
         <MenuName>음료</MenuName>
         <CurrentLocation>
@@ -127,6 +127,7 @@ export default function ProductList() {
 }
 
 const ProductListWrap = styled.div`
+  margin-top: 140px;
   margin-bottom: 90px;
   padding: 0px 125px;
   font-family: $nanumGothic;
