@@ -131,12 +131,6 @@ const ProductListWrap = styled.div`
   font-family: $nanumGothic;
 `;
 
-// const Nav = styled.nav`
-//   border: 1px solid black;
-//   height: 120px;
-//   width: 100%;
-// `;
-
 const Header = styled.header`
   position: relative;
   height: 98px;
