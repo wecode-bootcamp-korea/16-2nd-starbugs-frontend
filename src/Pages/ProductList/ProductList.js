@@ -16,8 +16,8 @@ export default function ProductList() {
   const [checkedNames, setCheckedNames] = useState(["전체 보기"]);
 
   useEffect(() => {
-    fetch(PRODUCTLIST_API)
-      // fetch("/data/productList.json")
+    // fetch(PRODUCTLIST_API)
+    fetch("/data/productList.json")
       .then((res) => res.json())
       .then((res) => setCategories(res.results));
   }, []);
@@ -97,7 +97,6 @@ export default function ProductList() {
     }
   };
 
-  console.log(checkedNames);
   return (
     <ProductListWrap>
       <Header>

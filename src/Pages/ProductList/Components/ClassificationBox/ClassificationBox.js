@@ -17,8 +17,6 @@ export default function ClassificationBox({
     setIsToggleOpen(!isToggleOpen);
   };
 
-  console.log("isToggleOpen", isToggleOpen);
-
   return (
     <div className="classificationBox">
       <ClassificationBoxWrapper>
@@ -56,14 +54,11 @@ const ClassificationBoxWrapper = styled.section`
   padding: 30px 30px 0px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  // height: 244px; // 실제 데이터 들어오면 삭제
 `;
 
 const ClassificationTitle = styled.div`
   height: 48px;
   padding-bottom: 30px;
-  // border-bottom: 1px solid #ddd;
-  // border-bottom: ${(props) => (props.show ? "none" : "1px solid #ddd")};
   border-bottom: ${(props) => (props.show ? "1px solid #ddd" : "none")};
   font-size: 18px;
   font-weight: bold;
@@ -82,7 +77,6 @@ const ToggleBtnDiv = styled.div`
 
 const CategoryBtnCheckboxDiv = styled.div`
   display: ${(props) => (props.show ? "block" : "none")};
-  // height: 164px;
   padding: 30px 0px;
 `;
 
