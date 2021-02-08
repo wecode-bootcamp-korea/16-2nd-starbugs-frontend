@@ -73,11 +73,6 @@ export default class ProductCategory extends Component {
           <AllBtnsWrapper>
             <BtnWrap>
               {BTN_WATCH_THROUGH.map((btn, idx) => {
-                console.log(
-                  "ProductCategory idx + 1, currentId:",
-                  idx + 1,
-                  currentId
-                );
                 return (
                   <BTN
                     key={idx + 1}

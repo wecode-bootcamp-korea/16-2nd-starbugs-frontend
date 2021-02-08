@@ -85,7 +85,7 @@ export default class SubCategory extends Component {
                   </SubcategoryDesc>
                 </SUBCATEGORY_TITLE>
                 {MAPPING_OBJ[currentId]}
-                {canShowNoResult && <NoResult />}
+                {/* {canShowNoResult && <NoResult />}  // 미완성 */}
               </div>
             );
           })}
