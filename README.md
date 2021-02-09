@@ -9,11 +9,11 @@
 <h2>:two: PROJECT 기간</h2>
 <P>1월25일 ~ 2월 5일</p>
 
-<h2>MEMBER</h2>
+<h2>:three: MEMBER</h2>
 <p>Front : 김병진 정선미 황인태</p>
 <p>Back : 이성용 장진욱</p>
 
-<h2>Front Tech</h2>
+<h2>:four: Front Tech</h2>
 <p>JavaScript(ES6)<p>
 <p>React(CRA, Class Component, Hooks)</p>
 
