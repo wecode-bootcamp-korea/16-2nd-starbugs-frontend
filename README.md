@@ -18,5 +18,8 @@
 <p>React(Class Component, Hooks)</p>
 <p>React-router-dom</p>
 <p>Sass</p>
+<p>Git/GitHub</p>
+<p>Slack</p>
+<p>Trello<p>
 
 <h2></h2>
