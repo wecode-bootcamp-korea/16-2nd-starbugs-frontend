@@ -5,7 +5,7 @@
 <img src="https://user-images.githubusercontent.com/65752350/107324232-11988880-6aeb-11eb-923d-581e96f988c0.png"></img>
 
 <h2>:one: Team Name</h2>
-<p>STARBUCKS</p>
+<p>STARBUGS</p>
 
 <h2>:two: Project 기간</h2>
 <P>1월25일 ~ 2월 5일</p>
