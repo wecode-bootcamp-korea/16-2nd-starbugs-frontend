@@ -3,7 +3,7 @@
 
 <h3>안녕하세요! STARBUCKS 홈페이지 클론 프로젝트를 하게 된 팀 STARBUGS 입니다! </h3>
 
-<h2>TEAN NAME</h2>
+<h2>TEAM NAME</h2>
 <p>STARBUCKS</p>
 
 <h2>PROJECT 기간</h2>
