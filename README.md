@@ -15,7 +15,7 @@
 <p>Back : 이성용 장진욱</p>
 
 <h2>:four: Front Tech</h2>
-<p>JavaScript(ES6)<p>
+<li>JavaScript(ES6)<li>
 <p>HTML/CSS</p>
 <p>React(Class Component, Hooks)</p>
 <p>React-router-dom</p>
