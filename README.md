@@ -17,5 +17,8 @@
 <p>JavaScript(ES6)<p>
 <p>React(CRA, Class Component, Hooks)</p>
 
-<h2>React 라이브러리</h2>
+<p>React 라이브러리</p>
+<p>React-router-dom</p>
+<p>Sass</p>
+
 <h2></h2>
