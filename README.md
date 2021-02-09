@@ -47,4 +47,5 @@
 <p>main 페이지 슬라이더 기능 구현</p>
 
 <h2>Project Youtube Link </h2>
-[Youtube](https://www.youtube.com/watch?v=LNovijmpFKU)
+
+[Youtube](https://www.youtube.com/watch?v=LNovijmpFKU "")
