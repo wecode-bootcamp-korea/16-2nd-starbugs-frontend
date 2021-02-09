@@ -15,9 +15,7 @@
 
 <h2>:four: Front Tech</h2>
 <p>JavaScript(ES6)<p>
-<p>React(CRA, Class Component, Hooks)</p>
-
-<p>React 라이브러리</p>
+<p>React(Class Component, Hooks)</p>
 <p>React-router-dom</p>
 <p>Sass</p>
 
