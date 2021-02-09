@@ -3,13 +3,13 @@
 
 <h3>안녕하세요! STARBUCKS 홈페이지 클론 프로젝트를 하게 된 팀 STARBUGS 입니다! </h3>
 
-<h2>:one: TEAM NAME</h2>
+<h2>:one: Team Name</h2>
 <p>STARBUCKS</p>
 
-<h2>:two: PROJECT 기간</h2>
+<h2>:two: Project 기간</h2>
 <P>1월25일 ~ 2월 5일</p>
 
-<h2>:three: MEMBER</h2>
+<h2>:three: Member</h2>
 <p>Front : 김병진 정선미 황인태</p>
 <p>Back : 이성용 장진욱</p>
 
@@ -22,7 +22,7 @@
 <p>Styled Component</p>
 
   
-<h2>:five: 협업 TOOL<h2>
+<h2>:five: 협업 Tool</h2>
 <p>Git/GitHub</p>
 <p>Slack</p>
 <p>Trello<p>
