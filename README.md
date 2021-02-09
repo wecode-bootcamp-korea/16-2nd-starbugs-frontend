@@ -15,11 +15,17 @@
 
 <h2>:four: Front Tech</h2>
 <p>JavaScript(ES6)<p>
+<p>HTML/CSS</p>
 <p>React(Class Component, Hooks)</p>
 <p>React-router-dom</p>
 <p>Sass</p>
+<p>Styled Component</p>
+
+  
+<h2>:five: 협업 TOOL<h2>
 <p>Git/GitHub</p>
 <p>Slack</p>
 <p>Trello<p>
+  
 
 <h2></h2>
