@@ -47,4 +47,4 @@
 <p>main 페이지 슬라이더 기능 구현</p>
 
 <h2>Project Youtube Link </h2>
-<iframe width="640" height="360" src="https://www.youtube.com/watch?v=LNovijmpFKU" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+[Youtube](https://www.youtube.com/?hl=ko&gl=KR "Starbugs")
