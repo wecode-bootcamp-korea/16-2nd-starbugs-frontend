@@ -27,7 +27,6 @@
 <li>Git/GitHub</li>
 <li>Slack</li>
 <li>Trello<li>
-  
 
 <h2>:six: Function</h2>
 <li>조건부 렌더링 & JS함수를 이용한 이중 필터링 기능 구현(2자기 종류의 input checkbox 제어</li>
