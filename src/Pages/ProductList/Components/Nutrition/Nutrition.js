@@ -31,13 +31,11 @@ const NutritionTr = styled.tr`
 `;
 
 const TableTh = styled.th`
-  // border: 1px solid orange;
   color: #666;
   font-weight: 500;
 `;
 
 const TableTd = styled.td`
-  // border: 1px solid pink;
   color: #666;
   text-align: center;
 `;

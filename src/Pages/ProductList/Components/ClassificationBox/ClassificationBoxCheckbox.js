@@ -72,7 +72,6 @@ const Label = styled.label`
 const DataLabel = styled.label`
   border: 1px solid #006633;
   display: inline-block;
-  // margin: 0 10px 0px;
   margin-right: 5px;
   width: 12px; /* 체크박스의 너비를 지정 */
   height: 12px; /* 체크박스의 높이를 지정 */
@@ -83,7 +82,6 @@ const DataLabel = styled.label`
 `;
 
 const IconDiv = styled.div`
-  // border: 1px solid blue;
   position: absolute;
   left: -2px;
   top: -5px;

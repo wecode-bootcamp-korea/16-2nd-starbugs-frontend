@@ -1,70 +1,51 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>STARBUGS :coffee: :cake:</h1>
 
-## Available Scripts
+<h3>안녕하세요! STARBUCKS 홈페이지 클론 프로젝트를 하게 된 팀 STARBUGS 입니다! </h3>
+<img src="https://user-images.githubusercontent.com/65752350/107324232-11988880-6aeb-11eb-923d-581e96f988c0.png"></img>
 
-In the project directory, you can run:
+<h2>:one: Team Name</h2>
+<p>STARBUGS</p>
 
-### `npm start`
+<h2>:two: Project 기간</h2>
+<P>1월25일 ~ 2월 5일</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2>:three: Member</h2>
+<p>Front : 김병진 정선미 황인태</p>
+<p>Back : 이성용 장진욱</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2>:four: Front Tech</h2>
+<li>JavaScript(ES6)</li>
+<li>HTML/CSS</li>
+<li>React(Class Component, Hooks)</li>
+<li>React-router-dom</li>
+<li>Sass</li>
+<li>Styled Component</li>
 
-### `npm test`
+  
+<h2>:five: 협업 Tool</h2>
+<li>Git/GitHub</li>
+<li>Slack</li>
+<li>Trello</li>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<h2>:six: Function</h2>
+<li>조건부 렌더링 & JS함수를 이용한 이중 필터링 기능 구현(2자기 종류의 input checkbox 제어</li>
+<li>checkbox 조건("전체보기" 클릭 시 다른 Checkbox 해제) 구현</li>
+<li>각 button에 지정된 state에 따라 component 교체하는 방식의 기능 구현</li>
+<li>동적 라우팅을 활용한 Detail 페이지 연결</li>
+<li>state와 styled component의 Props를 활용한 동적 요소 구현(토글, 사진/영양정보 보기, 상세분류)</li>
+<li>카카오톡 API를 이용한 소셜 로그인 기능 구현</li>
+<li>Detail 페이지 수량 변경, 조건부 렌더링 기능 구현</li>
+<li>Detail 페이지와 장바구니 연결</li>
+<li>cart 페이지 checkbox 수량 변경 기능 구현</li>
+<li>state 상태값 변화에 따라 hover시 navbar 변경 </li>
+<li>page 전환 시에 상단 고정 / refresh 상단 고정 기능 구현</li>
+<li>화살표 button 클릭 시 최상단/최하단으로 스크롤 이동 기능 구현</li>
+<li>aos 라이브러리 사용하여 동적 애니메이션 구현</li>
+<li>스크롤 값 계산하여 main 페이지 상단에 게이지 애니메이션 구현</li>
+<li>main 페이지 슬라이더 기능 구현</li>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h2>Project Youtube Link </h2>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Youtube](https://www.youtube.com/watch?v=LNovijmpFKU "Starbugs")

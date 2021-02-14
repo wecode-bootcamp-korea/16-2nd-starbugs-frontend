@@ -57,8 +57,6 @@ const TitleDiv = styled.div`
 `;
 
 const TitleP = styled.p`
-  display: table-cell;
-  text-align: center;
   vertical-align: middle;
   color: #444;
 `;
