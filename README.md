@@ -26,7 +26,7 @@
 <h2>:five: 협업 Tool</h2>
 <li>Git/GitHub</li>
 <li>Slack</li>
-<li>Trello<li>
+<li>Trello</li>
 
 
 <h2>:six: Function</h2>
