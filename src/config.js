@@ -1,5 +1,4 @@
-export const SERVER = "http://10.58.0.140:8000";
-// export const SERVER = "http://10.58.5.78:8000";
+export const SERVER = "http://18.216.24.158:8000";
 export const DETAIL_API = `${SERVER}/product`;
 export const CART_API = `${SERVER}/order/cart`;
 export const PRODUCTLIST_API = `${SERVER}/product`;

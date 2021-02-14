@@ -13,7 +13,6 @@ export default function ItemListTable({
   const checkedItemHandler = (id, isChecked, price) => {
     if (isChecked) {
       setCheckedItems([...checkedItems, id]);
-      console.log(checkedItems);
       setTotalPrice(totalPrice + price);
     } else {
       setCheckedItems(checkedItems.filter((item) => item !== id));

@@ -25,7 +25,6 @@ function CtrlAmount({ drinkDetail, cupSize, price, name, history, cupSizeId }) {
     })
       .then((res) => res.json())
       .then((res) => {
-        console.log(res);
         if (res.results === "SUCCESS") {
           alert(`${name} ${cupSize} ${amount}개 장바구니에 담기 성공!`);
           let moveToCart = window.confirm("장바구니로 이동하시겠습니까?");
